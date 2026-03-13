@@ -15,35 +15,38 @@ body {
   display: inline-block;
 }
 
-/* center image */
+/* bigger image */
 .center {
   display: block;
   margin-left: auto;
   margin-right: auto;
+  width: 800px;
 }
 
 /* login form positioned over image */
 .login-box {
   position: absolute;
-  top: 40%;
+  top: 45%;
   left: 50%;
   transform: translate(-50%, -50%);
 }
 
-/* invisible input boxes */
+/* invisible inputs but bigger typing area */
 input {
   background: transparent;
   border: none;
   outline: none;
   color: black;
-  font-size: 16px;
-  margin: 10px;
+  font-size: 20px;
+  margin: 15px;
+  width: 250px;
 }
 
-/* optional button */
+/* button */
 button {
-  margin-top: 10px;
-  padding: 8px 16px;
+  margin-top: 15px;
+  padding: 10px 20px;
+  font-size: 16px;
 }
 </style>
 
@@ -52,15 +55,15 @@ button {
 
 <div class="container">
 
-  <img src="insta.png" class="center" width="300">
+<img src="insta.png" class="center">
 
-  <div class="login-box">
-    <input type="text" placeholder="Username">
-    <br>
-    <input type="password" placeholder="Password">
-    <br>
-    <button>Login</button>
-  </div>
+<div class="login-box">
+<input type="text" placeholder="Username">
+<br>
+<input type="password" placeholder="Password">
+<br>
+<button>Login</button>
+</div>
 
 </div>
 
